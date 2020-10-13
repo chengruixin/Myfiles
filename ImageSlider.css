@@ -1,0 +1,34 @@
+#sliderWindow {
+    width: 720px;
+    height: 240px;
+    border: 5px solid yellowgreen;
+    overflow: hidden;
+}
+
+
+#sliderContainer {
+    display: flex;
+    
+}
+img {
+    width: 360px;
+    height: 240px;
+}
+
+.imgs {
+    position: relative;
+}
+
+.imgs span {
+    position: absolute;
+    color:  white;
+    bottom: 5%;
+    right: 5%;
+    z-index: 1;
+}
+
+div button {
+    padding: 1em 2em;
+    margin: 1em;
+    font-size: 1em;
+}
